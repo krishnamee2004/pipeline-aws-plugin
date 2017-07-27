@@ -317,3 +317,8 @@ def accounts = listAWSAccounts()
 
 ## 1.0
 * first release containing multiple pipeline steps
+
+
+### Issue:
+* When we invoke ListAccountsRequest(), AWS returns only 20 accounts and a token. In our case, we have 50+ accounts. Would you be able to update the code to support token?
+* I was unable to ask a question and hence this PR.
